@@ -14,7 +14,7 @@ This is the result of the console.log's in the code
 ## Exercise 2: Write a Javascript program to print the contents of the current window [printWindow folder]
 **Follow the screenshots and gifs to see what the process is!**
 
-Here is the HTML page with a <h1></h1> tag and a <p></p> tag. I commented out the <script></script> tag because I wanted to see what the window would look like without JS code running.
+Here is the HTML page with a h1 tag and a p tag. I commented out the script tag because I wanted to see what the window would look like without JS code running.
 ![HTML code without script tag](./images/printWindow1.png)
 ![HTML page without JS code](./images/printWindow2.png)
 
