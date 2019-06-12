@@ -32,3 +32,8 @@ But what if I don't want the print dialog to pop up when I load/reload the page?
 ## Exercise 3: Write a Javascript program to get the current date [currentDate folder]
 **Expected Result**
 mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
+
+Here is the Javascript code and the process of how I came to figure this out. I definitely have a better feel of the date methods after this exercise. It's all about practice!
+![JS file ](./images/currentdate1.png)
+This is the result in the console. I left the other console.log's uncommented because I wanted to see what each variable was after the if statements
+![Console that has the results of the code compiled](./images/currentdate2.png)
