@@ -28,3 +28,7 @@ But what if I don't want the print dialog to pop up when I load/reload the page?
 ![Adding a button with an onclick function specifically for the button](./images/printWindow5a.png)
 ![JS file: wrapping the window.print inside the function](./images/printWindow5.png)
 ![Gif of end result](https://media.giphy.com/media/ftd3PTUmfgrX0mgMSf/giphy.gif)
+
+## Exercise 3: Write a Javascript program to get the current date [currentDate folder]
+**Expected Result**
+mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
