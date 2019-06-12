@@ -26,3 +26,4 @@ let year = today.getFullYear();
 // Get Date
 let todaysDate = month + "/" + day + "/" + year;
 console.log(todaysDate);
+// outputs 06/12/2019
