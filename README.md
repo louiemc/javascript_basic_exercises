@@ -37,3 +37,16 @@ Here is the Javascript code and the process of how I came to figure this out. I 
 ![JS file ](./images/currentdate1.png)
 This is the result in the console. I left the other console.log's uncommented because I wanted to see what each variable was after the if statements
 ![Console that has the results of the code compiled](./images/currentdate2.png)
+
+## Exercise 4: Write a Javascript program to find the area of a triangle where the lengths of the three of its sides are 5,6,7 [triangle folder]
+If you're like me and you forgot math (face palming myself), google it. I found some sites that would calculate the area, but how could I program it to do it for me? 
+
+Then I found 'Heron's Formula.' 
+
+It's a method for calculating the area of a triangle when you know the lengths of all three sides! Let a,b,c be the lengths of the sides of the triangle. The area is given by: Area = sqrt(p(p-a)(p-b)(p-c)) where p is half the perimeter, (a+b+c)/2
+
+Here is the Javascript code with some comments on how I thought through this exercise:
+![JS code for triangle exercise](./images/traingle1.png)
+
+Here is the console where I console.log-ged the results:
+![Console that has the results of my console.log-s](./images/triangle2.png)
