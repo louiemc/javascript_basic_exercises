@@ -43,7 +43,9 @@ If you're like me and you forgot math (face palming myself), google it. I found 
 
 Then I found 'Heron's Formula.' 
 
-It's a method for calculating the area of a triangle when you know the lengths of all three sides! Let a,b,c be the lengths of the sides of the triangle. The area is given by: Area = sqrt(p(p-a)(p-b)(p-c)) where p is half the perimeter, (a+b+c)/2
+It's a method for calculating the area of a triangle when you know the lengths of all three sides! 
+
+Let a,b,c be the lengths of the sides of the triangle. The area is given by: Area = sqrt(p(p-a)(p-b)(p-c)) where p is half the perimeter, (a+b+c)/2
 
 Here is the Javascript code with some comments on how I thought through this exercise:
 ![JS code for triangle exercise](./images/traingle1.png)
