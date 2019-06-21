@@ -73,3 +73,4 @@ Here is the Javascript code: using a function and returning what you want run
 Here is the console where I console.log-ged the results:
 ![Console that has the results of my console.log-s](./images/leapYear2.png)
 
+## Exercise 7: Write a Javascript program to find 1st January is being a Sunday between 2014 and 2050 [firstJanuary folder]
