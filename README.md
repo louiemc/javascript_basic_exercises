@@ -67,6 +67,7 @@ So, I googled how to figure out if a year is a leap year:
 
 Here is the Javascript code: using a function and returning what you want run
 - return: you can use return to immediately end execution of the current function and specifies a value to be returned to the function caller
+
 ![JS code for leapYear exercise](./images/leapYear1.png)
 
 Here is the console where I console.log-ged the results:
