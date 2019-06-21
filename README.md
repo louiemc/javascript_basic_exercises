@@ -52,3 +52,23 @@ Here is the Javascript code with some comments on how I thought through this exe
 
 Here is the console where I console.log-ged the results:
 ![Console that has the results of my console.log-s](./images/triangle2.png)
+
+## Exercise 5: Write a Javascript program to rotate the string in right direction by periodically removing one letter from the end of the string and attaching it to the front [rotateString folder]
+TBD - To Be Done
+
+## Exercise 6: Write a Javascript program to determin whether a given year is a leap year in the Gregorian calendar [leapYear folder]
+One thing to remember is: Leap Year 366 & Leap Year 365
+
+So, I googled how to figure out if a year is a leap year:
+- The year can be evenly divided by 4
+- If the year can be evenly divided by 100, it is NOT a leap year, unless...
+- The year is also evenly divisible by 400
+- THEN it's a leap year
+
+Here is the Javascript code: using a function and returning what you want run
+- return: you can use return to immediately end execution of the current function and specifies a value to be returned to the function caller
+![JS code for leapYear exercise](./images/leapYear1.png)
+
+Here is the console where I console.log-ged the results:
+![Console that has the results of my console.log-s](./images/leapYear2.png)
+
