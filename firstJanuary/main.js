@@ -35,39 +35,49 @@ let month = date.getMonth() + 1;
 console.log(month);
 switch (month) {
   case 1:
-    console.log("Month: January");
+    console.log("Month: January ");
     break;
   case 2:
-    console.log("Month: February");
+    console.log("Month: February ");
     break;
   case 3:
-    console.log("Month: March");
+    console.log("Month: March ");
     break;
   case 4:
-    console.log("Month: April");
+    console.log("Month: April ");
     break;
   case 5:
-    console.log("Month: May");
+    console.log("Month: May ");
     break;
   case 6:
-    console.log("Month: June");
+    console.log("Month: June ");
     break;
   case 7:
-    console.log("Month: July");
+    console.log("Month: July ");
     break;
   case 8:
-    console.log("Month: August");
+    console.log("Month: August ");
     break;
   case 9:
-    console.log("Month: September");
+    console.log("Month: September ");
     break;
   case 10:
-    console.log("Month: October");
+    console.log("Month: October ");
     break;
   case 11:
-    console.log("Month: November");
+    console.log("Month: November ");
     break;
   case 12:
-    console.log("Month: December");
+    console.log("Month: December ");
     break;
 };
+
+
+let dayNumber = date.getDate();
+console.log(dayNumber);
+
+
+// Date: month, weekDay, year
+console.log(month, dayNumber, year);
+
+
