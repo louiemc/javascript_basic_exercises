@@ -28,8 +28,8 @@ switch (weekDay) {
     break;
 }
 
-let year = date.getFullYear();
-console.log("Year:", year);
+let yearFull = date.getFullYear();
+console.log("Year:", yearFull);
 
 let month = date.getMonth() + 1;
 console.log(month);
@@ -78,6 +78,19 @@ console.log(dayNumber);
 
 
 // Date: month, weekDay, year
-console.log(month, dayNumber, year);
+console.log(month, dayNumber, yearFull);
+
+
+
+function firstSunday(year) {
+  if (weekDay === 0 && dayNumber === 1) {
+    console.log("This January 1st lands on a Sunday!", year);
+  } else {
+    console.log("January 1st does NOT land on a Sunday!");
+  }
+}
+// years between 2014 to 2050
+let thisYear = firstSunday(2017);
+console.log(thisYear);
 
 
