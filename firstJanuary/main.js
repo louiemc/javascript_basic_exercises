@@ -81,7 +81,6 @@ console.log(dayNumber);
 console.log(month, dayNumber, yearFull);
 
 
-
 function firstSunday(year) {
   if (weekDay === 0 && dayNumber === 1) {
     console.log("This January 1st lands on a Sunday!", year);
@@ -89,6 +88,7 @@ function firstSunday(year) {
     console.log("January 1st does NOT land on a Sunday!");
   }
 }
+
 // years between 2014 to 2050
 let thisYear = firstSunday(2017);
 console.log(thisYear);
