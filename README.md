@@ -74,3 +74,50 @@ Here is the console where I console.log-ged the results:
 ![Console that has the results of my console.log-s](./images/leapYear2.png)
 
 ## Exercise 7: Write a Javascript program to find 1st January is being a Sunday between 2014 and 2050 [firstJanuary folder]
+Because this exercise had to do with dates I new I would have to use 'new Date' in some capacity.
+
+I first declared the variables x and y, and then set them equal to 2014 and 2050 respectively (this was just in case I wanted to change the years in the future)
+
+Then I used a **for loop**. The conditions of the for statement, which consists of 3 optional expressions enclosed in parentheses and separated by semicolons:
+- typically a basic for loop would look like this
+  - for (var i = 0; i < array.length; i++) {}
+- What I did:
+  - substitute 'i' for 'yearStart' and set that equal to x (the start year)
+  - then make sure 'yearStart' was less than or equal to (<=) the ending year 'y'
+  - increment 'yearStart'
+Once that's done, you can check to see if the expressions work by console.log-ing the statement
+- like this: console.log(yearStart);
+- this should increment and you'll see in your terminal the years 2014 to 2050
+
+Now that the for loop has been started, next:
+- need the **Date** method; **(below)**
+
+Here is the syntax for using the Date method: 
+- new Date(year, monthIndex [, day [, hours [, minutes [, seconds [, milliseconds]]]]]);
+  - the parameters in the square brackets are optional; if not used the default values are used
+- declare another variable, in this case 'z' and set that equal to the above method; let z = new Date() **(below)**
+
+What I focused on were **'year'** and **'monthIndex'** 
+- First Parameter: **year** is the integer value representing year
+  - in this case, I used the variable 'yearStart'
+- Second Parameter: **monthIndex** is the integer value representing the month; 0 for January to 11 for December
+  - in this case, I used '0' for January
+- Third Parameter: **day** is the integer value representing the day of the month
+  - in this case, I used 1 because I want the 1st of January
+Result: **line 20**
+
+But there's more!
+
+We need to find out **if** January 1st falls on a Sunday between the years 2014 and 2050
+- getDay() method gives an integer value 0 for Sunday and 6 for Saturday
+  - in this case, I want to use 0
+
+So, do a strict comparison of 'z', getDay(), and 0 (Sunday)
+Result: **line 22**
+
+If this all happens to be true, then console.log() the years that meet these requirements!
+
+![JS code for firstJanuary exercise](./images/firstJanuary1.png)
+
+Here is the console where I console.log-ged the results:
+![Console that has the results](./images/firstJanuary2.png)
