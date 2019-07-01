@@ -9,3 +9,11 @@ console.log(randomNumber); // outputs random number
 let userGuess;
 
 // using node; inquirer
+let inquirer = require("inquirer");
+
+inquirer.prompt(
+  {
+    type: "input",
+    name: ""
+  }
+)
