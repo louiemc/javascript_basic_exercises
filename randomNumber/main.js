@@ -14,6 +14,16 @@ let inquirer = require("inquirer");
 inquirer.prompt(
   {
     type: "input",
-    name: ""
+    name: "numberGuess",
+    message: "Guess a number between 1 to 10"
   }
-)
+).then((user) => { // then use a promise to follow through
+  // if the user input the correct number
+  if (user.numberGuess === randomNumber) {
+    console.log("Good Work:", randomNumber);
+  }
+  // if the user input the incorrect number
+  else {
+    console.log("Not Matched");
+  }
+});
