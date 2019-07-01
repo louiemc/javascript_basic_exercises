@@ -121,3 +121,5 @@ If this all happens to be true, then console.log() the years that meet these req
 
 Here is the console where I console.log-ged the results:
 ![Console that has the results](./images/firstJanuary2.png)
+
+## Exercise 8: Write a Javascript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not Matched" [randomNumber folder]
