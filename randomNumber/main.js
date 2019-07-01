@@ -8,4 +8,4 @@ console.log(randomNumber); // outputs random number
 
 let userGuess;
 
-
+// using node; inquirer
