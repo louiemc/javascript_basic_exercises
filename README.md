@@ -1,4 +1,9 @@
 # javascript_basic_exercises
+## Technology Used
+- **JavaScript** Using this for a majority of the exercises
+- **Node.js** Using this for a majority of the exercises
+- **HTML**
+
 Basic Javascript exercises! Check out the README below to see the gifs/screenshots of the solutions
 
 ## Exercise 1: Write a Javascript program to display the current day and time in the following format [dateAndTime folder]
