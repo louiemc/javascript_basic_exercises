@@ -131,3 +131,10 @@ Here is the console where I console.log-ged the results:
 **ADD DESCRIPTION AND SCREENSHOTS**
 
 ## Exercise 9: Write a JavaScript program to calculate days left until next Christmas
+**ADD DESCRIPTION AND SCREENSHOTS**
+
+## Exercise 10: Write a JavaScript program to calculate multiplication and division of two numbers (input from user) [calculateNumbers]
+
+
+
+
