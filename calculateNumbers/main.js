@@ -14,4 +14,7 @@ switch(calculate) {
   case /:
     function divide();
     break;
+  case default:
+    console.log('test test test test');
+    break;
 }
