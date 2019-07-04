@@ -1,36 +1,46 @@
-const inquirer = require(inquirer);
+// const inquirer = require(inquirer);
 
 // add a switch statement, so if +, -, *, / then carry out those functions
-switch(calculate) {
-  case "+":
-    function add();
-    break;
-  case "-":
-    function subtract();
-    break;
-  case "*":
-    function multiply();
-    break;
-  case "/":
-    function divide();
-    break;
-  default:
-    console.log('test test test test');
-    break;
-}
+// switch(calculate) {
+//   case "+":
+//     function add();
+//     break;
+//   case "-":
+//     function subtract();
+//     break;
+//   case "*":
+//     function multiply();
+//     break;
+//   case "/":
+//     function divide();
+//     break;
+//   default:
+//     console.log('test test test test');
+//     break;
+// }
 
-function add() {
 
+function add(value1, value2) {
+  let sum = value1 + value2;
+  console.log(sum);
 }
+add(1, 5);
+
 
 function subtract() {
-
+  let difference = value1 + value2;
+  console.log(difference);
 }
+subtract(10, 7);
 
 function multiply() {
-
+  let product = value1 + value2;
+  console.log(product);
 }
+multiply(5, 6);
 
 function divide() {
-  
+  let quotient = value1 + value2;
+  console.log(quotient);
 }
+divide(9,3);
