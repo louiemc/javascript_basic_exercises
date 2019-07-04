@@ -2,19 +2,19 @@
 
 // add a switch statement, so if +, -, *, / then carry out those functions
 switch(calculate) {
-  case +:
+  case "+":
     function add();
     break;
-  case -:
+  case "-":
     function subtract();
     break;
-  case *:
+  case "*":
     function multiply();
     break;
-  case /:
+  case "/":
     function divide();
     break;
-  case default:
+  default:
     console.log('test test test test');
     break;
 }
