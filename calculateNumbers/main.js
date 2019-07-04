@@ -1,4 +1,4 @@
-
+const inquirer = require(inquirer);
 
 // add a switch statement, so if +, -, *, / then carry out those functions
 switch(calculate) {
@@ -17,4 +17,20 @@ switch(calculate) {
   default:
     console.log('test test test test');
     break;
+}
+
+function add() {
+
+}
+
+function subtract() {
+
+}
+
+function multiply() {
+
+}
+
+function divide() {
+  
 }
