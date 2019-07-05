@@ -17,20 +17,24 @@ inquirer
       type: "input",
       name: "value2",
       message: "Pick a number for value2"
+    },
+    {
+      type: "number",
+      name: "result",
+      message: "Result of the calculation: " + add();
     }
   ])
   .then(function(user) {
-    console.log("****************************************");
+    
     if (user.choices === "Addition") {
       function add(value1, value2) {
         let sum = value1 + value2;
         return sum;
       }
       add();
-      return sum;
+      console.log(sum);
     }
-    console.log(sum);
-    console.log("****************************************");
+  
   });
 
 // function add(value1, value2) {
