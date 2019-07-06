@@ -27,27 +27,27 @@ inquirer
   .then(function(user) {
 
     // if the user chooses 'Addition'
-    if (user.choices == "Addition") {
-      let result = user.value1 + user.value2;
+    if (user.choices === "Addition") {
+      let result = int(user.value1) + int(user.value2);
       console.log(result);
     }
 
     // if the user chooses 'Subtraction'
-    else if (user.choices == "Subtraction") {
+    else if (user.choices === "Subtraction") {
       let result = user.value1 - user.value2;
       console.log(result);
     }
 
 
     // if the user chooses 'Multiplication'
-    else if (user.choices == "Multiplication") {
+    else if (user.choices === "Multiplication") {
       let result = user.value1 * user.value2;
       console.log(result);
     }
 
 
     // if the user chooses 'Division'
-    else if (user.choices == "Division") {
+    else if (user.choices === "Division") {
       let result = user.value1 / user.value2;
       console.log(result);
     }
@@ -55,8 +55,7 @@ inquirer
     else {
       console.error("error");
     }
-
-
+    
   });
 
 // function add(value1, value2) {
