@@ -28,7 +28,7 @@ inquirer
 
     // if the user chooses 'Addition'
     if (user.choices === "Addition") {
-      let result = int(user.value1) + int(user.value2);
+      let result = parseInt(user.value1) + parseInt(user.value2);
       console.log(result);
     }
 
