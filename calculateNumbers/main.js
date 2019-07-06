@@ -38,7 +38,6 @@ inquirer
       console.log(result);
     }
 
-
     // if the user chooses 'Multiplication'
     else if (user.choices === "Multiplication") {
       let result = user.value1 * user.value2;
