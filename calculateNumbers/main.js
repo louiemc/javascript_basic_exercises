@@ -25,16 +25,38 @@ inquirer
     // }
   ])
   .then(function(user) {
-    
-    if (user.choices === "Addition") {
-      function add(user.value1, user.value2) {
-        let sum = user.value1 + user.value2;
-        return sum;
-      }
-      add();
-      console.log(sum);
+
+    // if the user chooses 'Addition'
+    if (user.choices == "Addition") {
+      let result = user.value1 + user.value2;
+      console.log(result);
     }
-  
+
+    // if the user chooses 'Subtraction'
+    else if (user.choices == "Subtraction") {
+      let result = user.value1 - user.value2;
+      console.log(result);
+    }
+
+
+    // if the user chooses 'Multiplication'
+    else if (user.choices == "Multiplication") {
+      let result = user.value1 * user.value2;
+      console.log(result);
+    }
+
+
+    // if the user chooses 'Division'
+    else if (user.choices == "Division") {
+      let result = user.value1 / user.value2;
+      console.log(result);
+    }
+
+    else {
+      console.error("error");
+    }
+
+
   });
 
 // function add(value1, value2) {
