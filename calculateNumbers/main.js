@@ -8,15 +8,15 @@ inquirer
       message: "Pick a number for value1"
     },
     {
+      type: "input",
+      name: "value2",
+      message: "Pick a number for value2"
+    },
+    {
       type: "list",
       name: "operator",
       message: "Choose your arithmetic operator",
       choices: ["Addition", "Subtraction", "Mulitplication", "Division"]
-    },
-    {
-      type: "input",
-      name: "value2",
-      message: "Pick a number for value2"
     }
     // {
     //   type: "number",
