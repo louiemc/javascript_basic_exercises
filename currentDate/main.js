@@ -26,4 +26,4 @@ console.log(year);
 // Get Date
 let todaysDate = month + "/" + day + "/" + year;
 console.log(todaysDate);
-// outputs 06/12/2019
+// outputs current date in format: MM/DD/YYY
