@@ -29,6 +29,7 @@ inquirer
     // if the user chooses 'Addition'
     if (user.operator === "Addition") {
       let result = parseInt(user.value1) + parseInt(user.value2);
+      // let result = user.value1 + user.value2;  output: 24; takes in string of each and adds them together; NEED parseInt
       console.log(result);
       // console.log("you chose addition!");
     }
