@@ -12,7 +12,7 @@ console.log(date2);
 // time between the 2 dates
 // getting the amount of time that is passed brom date2 and date1
 const timeBetween = Math.abs(date2.getTime() - date1.getTime());
-console.log(timeBetween);
+console.log(timeBetween); // time between is seconds (milliseconds...)
 
 // find days between using the timeBetween
 // BUT timeBetween NEEDS to be divided by 1000 * 3600 * 24 which is the number of milliseconds per day.
