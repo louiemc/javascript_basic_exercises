@@ -36,7 +36,9 @@ switch (day) {
 // Getting the Current Time
 let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 console.log("Current time is: ", time);
+// 24 hour clock
 
 // Shorter code for the SAME thing plus it'll have AM/PM
 let otherTime = today.toLocaleTimeString('en-us');
 console.log("Current time is: ", otherTime);
+// 12 hour clock
