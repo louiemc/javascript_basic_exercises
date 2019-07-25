@@ -18,7 +18,7 @@ inquirer
     // declare a variable to hold the random number
     // using Javascript built in math functions: Math.floor and Math.random
     let randomNumber = Math.floor(Math.random() * x.length) + 1;
-    console.log(randomNumber); // outputs random number; don't really need this but i'm leaving it
+    console.log(randomNumber); // outputs the random number; shows the user what randomNumber is; good for fixing potential bug
 
     // if the user input the correct number
     if (user.numberGuess == randomNumber) { 
