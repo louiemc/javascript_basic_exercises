@@ -21,6 +21,7 @@ for (var yearStart = x; yearStart <= y; yearStart++) {
   // to get sunday: use getDay(method); so *if* you getDay of z and if it's === 0 (sunday) then console.log(year that jan 1st is a sunday)
   if (z.getDay() === 0) {
     console.log("January 1st on a Sunday:", yearStart);
+    // output: goes through the years between x and y; giving you the years where juanuary falls on sunday
   }
 }
 
