@@ -13,5 +13,6 @@ console.log("Half the perimeter is: " + p);
 // Equation for area of a triangle; Heron's Formula
 let area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
 console.log("The area of the triangle is: " + area);
+console.log("Equation: sqrt( p * (p - a) * (p - b) * (p - c)");
 
 
