@@ -40,15 +40,15 @@ inquirer
     }
 
     // if the user chooses 'Multiplication'
-    else if (user.operator === "Multiplication") {
-      let result = user.value1 * user.value2;
+    else if (user.operator === "Mulitplication") {
+      let result = parseInt(user.value1) * parseInt(user.value2);
       console.log(result);
     }
 
 
     // if the user chooses 'Division'
     else if (user.operator === "Division") {
-      let result = user.value1 / user.value2;
+      let result = parseInt(user.value1) / parseInt(user.value2);
       console.log(result);
     }
 
