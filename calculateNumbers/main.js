@@ -27,27 +27,27 @@ inquirer
   .then(function(user) {
 
     // if the user chooses 'Addition'
-    if (user.operator == "Addition") {
+    if (user.operator === "Addition") {
       let result = parseInt(user.value1) + parseInt(user.value2);
       console.log(result);
-      console.log("you chose addition!");
+      // console.log("you chose addition!");
     }
 
     // if the user chooses 'Subtraction'
-    else if (user.choices === "Subtraction") {
-      let result = user.value1 - user.value2;
+    else if (user.operator === "Subtraction") {
+      let result = Math.abs(user.value1 - user.value2);
       console.log(result);
     }
 
     // if the user chooses 'Multiplication'
-    else if (user.choices === "Multiplication") {
+    else if (user.operator === "Multiplication") {
       let result = user.value1 * user.value2;
       console.log(result);
     }
 
 
     // if the user chooses 'Division'
-    else if (user.choices === "Division") {
+    else if (user.operator === "Division") {
       let result = user.value1 / user.value2;
       console.log(result);
     }
