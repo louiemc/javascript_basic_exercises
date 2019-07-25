@@ -27,9 +27,10 @@ inquirer
   .then(function(user) {
 
     // if the user chooses 'Addition'
-    if (user.choices === "Addition") {
+    if (user.operator == "Addition") {
       let result = parseInt(user.value1) + parseInt(user.value2);
       console.log(result);
+      console.log("you chose addition!");
     }
 
     // if the user chooses 'Subtraction'
