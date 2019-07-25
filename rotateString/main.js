@@ -18,3 +18,4 @@ function rotateString(string) {
 
 
 // slice off the last letter and concat and add to index 0 ?
+// still not done 🤦🏻‍♀
