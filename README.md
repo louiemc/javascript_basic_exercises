@@ -136,5 +136,12 @@ Here is the console where I console.log-ged the results:
 ## Exercise 10: Write a JavaScript program to calculate multiplication and division of two numbers (input from user) [calculateNumbers]
 
 
+## Exercise 11: Write a Javacsript program to convert tempeatures to and from Celsius, Fahrenheit
+Formula: c/5 = (f-32)/9 
+
+Where c = temperature in Celsius and f = temperature in Fahrenheit
+
+
+## Exercise 12: Write a Javascript program to get the website URL (loading page)
 
 
